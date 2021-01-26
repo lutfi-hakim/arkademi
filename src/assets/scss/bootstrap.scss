@@ -1,0 +1,198 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ @import "colorVariables";
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+.btn-danger-custom{
+    background-color: rgb(245, 96, 9);
+    color: #fff;
+}
+
+.navbar{
+    .nav-link{
+            margin-right: 20px;
+        }
+    a {
+        color: #fff !important;
+        font-size: 18px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+}
+
+.jumbotron{
+    background-image: url(../images/hero.jpg);
+    background-size:cover;
+    height: 520px;
+    margin-top: -75px;
+    text-align: center;
+
+     .display-4{
+         color: #fff;
+         font-weight: 700;
+         margin-top: 140px;
+     }
+
+     .lead{
+         color: #fff;
+         font-weight: 400;
+     }
+}
+
+.card{
+    border-radius: 15px;
+    
+    .img-wrapper{
+        height: 100%;
+        overflow: hidden;
+        border-radius: 0.9375rem;
+        margin: -14px 14px;
+        object-fit: cover;
+    }
+
+    .meta-wrapper {
+        margin: 1.6rem 1.2rem;
+
+        h4 {
+            font-size: 18px;
+            margin-bottom: 2px;
+        }
+        span {
+            font-size: 14px;
+            margin:10px 0px;
+            padding-right: 20px;
+        }
+
+        .icon{
+            width: 16px;
+            height: 16px;
+            margin: 4px 0px;
+        }
+        .vendor{
+            font-size: 14px;
+            font-weight: 500;
+            margin: 10px 0px;
+            border-top:1px solid rgba(128, 128, 128, 0.253) ;
+            border-bottom:1px solid rgba(128, 128, 128, 0.253);
+        }
+        
+    }
+
+    &.card-featured{
+        box-shadow: 0px 15px 10px -15px rgb(185, 184, 184);
+    }
+}
+
+.prakerja{
+    background-color: rgb(42, 179, 243);
+    padding: 40px;
+
+    h5{
+        color: #fff;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .list-heading{
+        color: #000;
+        font-weight: 700;
+        font-size: 28px;
+    }
+}
+
+.non-prakerja{
+    padding: 40px;
+
+    h5{
+        color: #000;
+        font-weight: 700;
+        font-size: 28px;
+        margin-left: 12px;
+    }
+}
+
+footer {
+    padding-top: 50px;
+    background-color: rgba(182, 181, 181, 0.164);
+    .brand-tagline {
+        margin-top: 8px;
+        color: rgb(116, 115, 115);
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .list-group-item {
+        padding: 0.3125rem;
+        background-color: rgba(182, 181, 181, 0);
+        border: 0;
+
+        a,
+        span {
+            color: gray;
+            font-weight: 300;
+            font-size: 14px;
+        }        
+    }
+    .footer-first{
+        border-bottom: 1px solid rgba(182, 181, 181, 0.466);
+        padding-bottom: 20px;
+        .footer-brand-logo{
+            width: 250px;
+        }
+    }
+    .footer-second{
+        padding: 10px 0px;
+        h6{
+            font-size: 14px;
+        }
+        img{
+            width: 45px;
+            height: 28px;
+        }
+    }
+    .footer-last{
+        border-top: 1px solid rgba(182, 181, 181, 0.466);
+        padding: 16px 0px;
+        font-size: 14px;
+    }
+}
+
