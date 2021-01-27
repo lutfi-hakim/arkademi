@@ -1,4 +1,33 @@
 {
+    "categori":[
+        {
+            "name":"Semua Kelas",
+            "iconUrl":"/images/all.png"
+        },
+        {
+            "name":"Kewirausahaan",
+            "iconUrl":"/images/all.png"
+        },
+        {
+            "name":"Pemasaran",
+            "iconUrl":"/images/all.png"
+        },
+        {
+            "name":"Digital Marketing",
+            "iconUrl":"/images/all.png"
+        },
+        {
+            "name":"Teknologi",
+            "iconUrl":"/images/all.png"
+        },
+        {
+            "name":"Multimedia",
+            "iconUrl":"/images/all.png"
+        },{
+            "name":"Kesehatan",
+            "iconUrl":"/images/all.png"
+        }
+    ],
     "featurePrakerja":[
         {
             "_id":"sdfw3rf3efw44a23",

@@ -19,6 +19,7 @@ export default class LandingPage extends Component {
       <>
         <Header></Header>
         <Hero />
+        <Categories data={landingPage.categori} />
         <FeaturePrakerja data={landingPage.featurePrakerja} />
         <FeatureNews data={landingPage.featureTerbaru} />
         <MostPicked data={landingPage.featureBest} />

@@ -92,7 +92,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="row">
-          <div className="col-10 text-center footer-second">
+          <div className="col-12 text-center footer-second">
             <h6>Metode Pembayaran</h6>
             <div className="row justify-content-center">
               <div className="col-1">
